@@ -10,7 +10,9 @@ pipeline {
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
             }
             post {
-                sh 'rm -rf build'
+                always {
+                    sh 'rm -rf build'
+                }
             }
         }
     }
