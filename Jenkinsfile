@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
+                sh 'git submodule update --init --recursive'
                 sh '''#!/bin/bash -l
                 mkdir build;
                 cd build;

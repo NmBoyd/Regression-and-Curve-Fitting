@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/example.dir/scripts/example.cpp.o  -o example libCurveFitting_SRC.a -lpython2.7 
