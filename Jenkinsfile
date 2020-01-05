@@ -11,8 +11,8 @@ pipeline {
                     mkdir build;
                     cd build;
                     cmake ..;
-                '''
-                sh 'make' 
+                    make
+                ''' 
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
             }
             post {
