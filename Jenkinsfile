@@ -5,10 +5,11 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh '''#!bin/bash
-                mkdir build
-                cd build
-                cmake ..'''
+                sh '''#!bin/bash -l
+                mkdir build;
+                cd build;
+                cmake ..;
+                '''
                 sh 'make' 
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
             }
