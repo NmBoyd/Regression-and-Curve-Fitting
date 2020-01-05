@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nathan/git/Regression-and-Curve-Fitting/CurveFitting_INCLUDE -I/home/nathan/git/Regression-and-Curve-Fitting/include -I/home/nathan/git/Regression-and-Curve-Fitting/3rdparty/matplotlib-cpp -I/usr/include/python2.7 
+CXX_INCLUDES = -I/home/nathan/Regression-and-Curve-Fitting/CurveFitting_INCLUDE -I/home/nathan/Regression-and-Curve-Fitting/include -I/home/nathan/Regression-and-Curve-Fitting/3rdparty/matplotlib-cpp -I/usr/include/python2.7 
 

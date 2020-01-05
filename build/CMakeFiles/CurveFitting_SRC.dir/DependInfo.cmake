@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nathan/git/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp" "/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o"
+  "/home/nathan/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp" "/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

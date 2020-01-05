@@ -1,4 +1,4 @@
-/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles/rebuild_cache.dir
-/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles/edit_cache.dir
-/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles/CurveFitting_SRC.dir
-/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles/example.dir
+/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles/rebuild_cache.dir
+/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles/edit_cache.dir
+/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles/CurveFitting_SRC.dir
+/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles/example.dir

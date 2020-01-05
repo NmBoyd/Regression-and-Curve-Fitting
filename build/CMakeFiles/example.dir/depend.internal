@@ -4,7 +4,7 @@
 CMakeFiles/example.dir/scripts/example.cpp.o
  ../3rdparty/matplotlib-cpp/matplotlibcpp.h
  ../include/CurveFitting/LeastSquareRegression.h
- /home/nathan/git/Regression-and-Curve-Fitting/scripts/example.cpp
+ /home/nathan/Regression-and-Curve-Fitting/scripts/example.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h

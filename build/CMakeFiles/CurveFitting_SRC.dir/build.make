@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/git/Regression-and-Curve-Fitting
+CMAKE_SOURCE_DIR = /home/nathan/Regression-and-Curve-Fitting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/git/Regression-and-Curve-Fitting/build
+CMAKE_BINARY_DIR = /home/nathan/Regression-and-Curve-Fitting/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CurveFitting_SRC.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/CurveFitting_SRC.dir/flags.make
 
 CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o: CMakeFiles/CurveFitting_SRC.dir/flags.make
 CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o: ../src/CurveFitting/LeastSquareRegression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o -c /home/nathan/git/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o -c /home/nathan/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp
 
 CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nathan/git/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp > CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nathan/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp > CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.i
 
 CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nathan/git/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp -o CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nathan/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp -o CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.s
 
 CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o.requires:
 
@@ -91,7 +91,7 @@ CurveFitting_SRC_EXTERNAL_OBJECTS =
 libCurveFitting_SRC.a: CMakeFiles/CurveFitting_SRC.dir/src/CurveFitting/LeastSquareRegression.cpp.o
 libCurveFitting_SRC.a: CMakeFiles/CurveFitting_SRC.dir/build.make
 libCurveFitting_SRC.a: CMakeFiles/CurveFitting_SRC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCurveFitting_SRC.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCurveFitting_SRC.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/CurveFitting_SRC.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CurveFitting_SRC.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/CurveFitting_SRC.dir/clean:
 .PHONY : CMakeFiles/CurveFitting_SRC.dir/clean
 
 CMakeFiles/CurveFitting_SRC.dir/depend:
-	cd /home/nathan/git/Regression-and-Curve-Fitting/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/git/Regression-and-Curve-Fitting /home/nathan/git/Regression-and-Curve-Fitting /home/nathan/git/Regression-and-Curve-Fitting/build /home/nathan/git/Regression-and-Curve-Fitting/build /home/nathan/git/Regression-and-Curve-Fitting/build/CMakeFiles/CurveFitting_SRC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nathan/Regression-and-Curve-Fitting/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Regression-and-Curve-Fitting /home/nathan/Regression-and-Curve-Fitting /home/nathan/Regression-and-Curve-Fitting/build /home/nathan/Regression-and-Curve-Fitting/build /home/nathan/Regression-and-Curve-Fitting/build/CMakeFiles/CurveFitting_SRC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CurveFitting_SRC.dir/depend
 

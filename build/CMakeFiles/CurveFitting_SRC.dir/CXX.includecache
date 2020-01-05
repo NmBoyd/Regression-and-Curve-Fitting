@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nathan/git/Regression-and-Curve-Fitting/include/CurveFitting/LeastSquareRegression.h
+/home/nathan/Regression-and-Curve-Fitting/include/CurveFitting/LeastSquareRegression.h
 iostream
 -
 vector
@@ -14,7 +14,7 @@ vector
 eigen3/Eigen/Dense
 -
 
-/home/nathan/git/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp
+/home/nathan/Regression-and-Curve-Fitting/src/CurveFitting/LeastSquareRegression.cpp
 ../../include/CurveFitting/LeastSquareRegression.h
-/home/nathan/git/Regression-and-Curve-Fitting/include/CurveFitting/LeastSquareRegression.h
+/home/nathan/Regression-and-Curve-Fitting/include/CurveFitting/LeastSquareRegression.h
 

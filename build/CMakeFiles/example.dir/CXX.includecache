@@ -25,6 +25,8 @@ cstdint
 -
 functional
 -
+unordered_map
+-
 Python.h
 -
 numpy/arrayobject.h
@@ -40,7 +42,7 @@ vector
 eigen3/Eigen/Dense
 -
 
-/home/nathan/git/Regression-and-Curve-Fitting/scripts/example.cpp
+/home/nathan/Regression-and-Curve-Fitting/scripts/example.cpp
 stdio.h
 -
 iostream
@@ -48,9 +50,9 @@ iostream
 eigen3/Eigen/Dense
 -
 matplotlibcpp.h
-/home/nathan/git/Regression-and-Curve-Fitting/scripts/matplotlibcpp.h
+/home/nathan/Regression-and-Curve-Fitting/scripts/matplotlibcpp.h
 CurveFitting/LeastSquareRegression.h
-/home/nathan/git/Regression-and-Curve-Fitting/scripts/CurveFitting/LeastSquareRegression.h
+/home/nathan/Regression-and-Curve-Fitting/scripts/CurveFitting/LeastSquareRegression.h
 
 /usr/include/python2.7/Python.h
 patchlevel.h

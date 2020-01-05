@@ -1,4 +1,4 @@
-# Install script for directory: /home/nathan/git/Regression-and-Curve-Fitting
+# Install script for directory: /home/nathan/Regression-and-Curve-Fitting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nathan/git/Regression-and-Curve-Fitting/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nathan/Regression-and-Curve-Fitting/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
