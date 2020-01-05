@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'mkdir build'
                 sh 'cd build'
+                sh 'cmake ..'
                 sh 'make' 
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
             }
