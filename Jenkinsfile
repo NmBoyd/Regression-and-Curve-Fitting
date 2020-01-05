@@ -12,12 +12,14 @@ pipeline {
                     cd build;
                     cmake ..;
                     make
-                ''' 
-                archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
+                '''  
             }
             post {
                 always {
                     sh 'rm -rf build'
+                }
+                failure {
+                    archiveArtifacts(allowEmptyArchive: false, artifacts: '.build/**/*.xml, .build/**/*.log')
                 }
             }
         }
