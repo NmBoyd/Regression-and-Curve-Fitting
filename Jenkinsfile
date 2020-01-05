@@ -7,9 +7,10 @@ pipeline {
                 echo 'Building...'
                 sh 'git submodule update --init --recursive'
                 sh '''#!/bin/bash -l
-                mkdir build;
-                cd build;
-                cmake ..;
+                    echo $0;
+                    mkdir build;
+                    cd build;
+                    cmake ..;
                 '''
                 sh 'make' 
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
