@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh '''!bin/bash
+                sh '''#!bin/bash
                 mkdir build
                 cd build
                 cmake ..'''
